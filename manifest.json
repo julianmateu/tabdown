@@ -1,0 +1,13 @@
+{
+  "name": "Tabdown",
+  "description": "A Chrome extension to save all your open tabs into a markdown file",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "tabdown.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
