@@ -1,8 +1,34 @@
 <html>
 
+<head>
+  <script defer src="script.js"></script>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+
 <body>
-  <h1>Tabdown</h1>
-  <script src="script.js"></script>
+  <form id="download-form">
+    <fieldset class="container">
+      <legend>
+        Select an output format
+      </legend>
+      <div>
+        <input type="radio" id="markdown" name="format" value="markdown" checked />
+        <label for="markdown" name="format" value="markdown">Markdown</label>
+      </div>
+      <div>
+        <input type="radio" id="plaintext" name="format" value="plaintext" />
+        <label for="plaintext" name="format" value="plaintext">Plain Text</label>
+      </div>
+    </fieldset>
+    <label for="filename">File Name:</label>
+    <input type="text" id="filename" value="" />
+    <button type="submit">Download</button>
+  </form>
 </body>
 
 </html>
