@@ -4,11 +4,11 @@
   "version": "0.0.1",
   "manifest_version": 3,
   "icons": {
-    "128": "tabdown.png"
+    "128": "icon-128.png"
   },
   "action": {
     "default_popup": "index.html",
-    "default_icon": "tabdown.png"
+    "default_icon": "icon-128.png"
   },
   "permissions": [
     "tabs"
